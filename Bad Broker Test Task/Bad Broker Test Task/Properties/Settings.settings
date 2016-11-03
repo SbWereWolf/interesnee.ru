@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Bad_Broker_Test_Task.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BaseCurrency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">USD</Value>
+    </Setting>
+    <Setting Name="TradingCurrencies" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">RUB,EUR,GBP,JPY</Value>
+    </Setting>
+    <Setting Name="BaseCurrencyParameterSpelling" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">base={0}</Value>
+    </Setting>
+    <Setting Name="TradingCurrenciesParameterSpelling" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">symbols={0}</Value>
+    </Setting>
+    <Setting Name="ExchangeRatesRequestPattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{0}{1}?{2}&amp;{3}</Value>
+    </Setting>
+    <Setting Name="RequestRatesDaysStep" Type="System.Double" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="ExchangeRatesDataSource" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://api.fixer.io/</Value>
+    </Setting>
+    <Setting Name="CurrenciesSeparators" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">,</Value>
+    </Setting>
+    <Setting Name="ResultReportPattern" Type="System.String" Scope="Application">
+      <Value Profile="(Default)"> {0} обмен {1} {2} на {3}, обратный обмен {4} , прибыль {5} </Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

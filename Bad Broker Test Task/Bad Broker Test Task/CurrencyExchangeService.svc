@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Bad_Broker_Test_Task.CurrencyExchangeService" CodeBehind="CurrencyExchangeService.svc.cs" %>
